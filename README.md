@@ -1,12 +1,9 @@
 ---
 title: Magic Rugs Generator
 emoji: 🧿
-colorFrom: indigo
-colorTo: red
 sdk: gradio
 sdk_version: 5.44.1
 app_file: app.py
-pinned: false
 license: cc0-1.0
 ---
 
