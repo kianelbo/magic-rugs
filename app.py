@@ -7,7 +7,7 @@ model_id = "kianelbo/magic-rugs-sd15"
 pipe = StableDiffusionPipeline.from_pretrained(
     model_id,
     torch_dtype=torch.float16,
-).to("cuda")
+).to("cpu")
 
 def generate(prompt, negative_prompt, steps, guidance, seed):
     generator = torch.manual_seed(seed) if seed != -1 else None
