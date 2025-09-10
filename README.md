@@ -13,7 +13,8 @@ But there were no public dataset of rug images so I gathered one myself. The ima
 Then, I fine-tuned a stable diffusion model using LoRA with moderate success on rug generation.  
 However, the model produces more interesting results when you ask it to generate other things!
 
-<img src="https://media.githubusercontent.com/media/kianelbo/magic-rugs/refs/heads/main/samples/rug_dataset.jpg" alt="rug from the dataset" width="200"/><img src="https://media.githubusercontent.com/media/kianelbo/magic-rugs/refs/heads/main/samples/rug_generated.jpg" alt="generated rug" width="200"/><img src="https://media.githubusercontent.com/media/kianelbo/magic-rugs/refs/heads/main/samples/trees.jpg" alt="generated trees" width="200"/>
+<img src="https://media.githubusercontent.com/media/kianelbo/magic-rugs/refs/heads/main/samples/rug_dataset.jpg" alt="rug from the dataset" width="240"/><img src="https://media.githubusercontent.com/media/kianelbo/magic-rugs/refs/heads/main/samples/rug_generated.jpg" alt="generated rug" width="240"/><img src="https://media.githubusercontent.com/media/kianelbo/magic-rugs/refs/heads/main/samples/trees.jpg" alt="generated trees" width="240"/>  
+(left: dataset sample, middle: generated rug sample, right: generated tree image)
 
 ## The Dataset
 The dataset is composed of 1000 square-padded rug images, all from top view in jpg format. The images are 1024x1024 and in 10 different styles (denoted by file names).  
